@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog
 import pygame
 
-# Pygame ses modülünü başlat
 pygame.mixer.init()
 
 def muzik_sec():
@@ -23,7 +22,7 @@ def devam_et():
 def durdur():
     pygame.mixer.music.stop()
 
-# Arayüz
+
 pencere = tk.Tk()
 pencere.title("Basit Müzik Çalar")
 pencere.geometry("300x200")
